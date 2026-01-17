@@ -1,0 +1,16 @@
+api:
+  base_url: "https://semantic-brandea-banao-dc049ed0.koyeb.app"
+  username: "roman123"  # CHANGE THIS
+  password: "StrongPass123!"  # CHANGE THIS
+
+auth:
+  register: "/register"
+  login: "/login"
+
+endpoints:
+  tenants: "/api/tenant"
+  virtualservices: "/api/virtualservice"
+  serviceengines: "/api/serviceengine"
+
+target_vs:
+  name: "backend-vs-t1r_1000-1"
